@@ -68,6 +68,7 @@ def preorder_traversal(root):
 
 preorder_traversal(root)
 print("")
+print("next is serialize and deserialize")
 
 #postorder traversal left->right->root
 
