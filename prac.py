@@ -1,6 +1,8 @@
-a=[1,1,2,2]
-b=[2,3,4,5]
+s="digant"
 
-
-ind=lambda x:b[0] in a
-print(ind)
+def f(s,ind):
+    if ind==len(s):
+        return
+    f(s,ind+1)
+    print(s[ind],end="")
+f(s,0)

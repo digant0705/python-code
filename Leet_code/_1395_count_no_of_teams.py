@@ -12,7 +12,7 @@ def count_teams(arr):
         
         for j in range(i+1,len(arr)):
             
-            for k in range(i+2,len(arr)):
+            for k in range(j+1,len(arr)):
                 if arr[i]<arr[j]<arr[k] or arr[i]>arr[j]>arr[k]:
                    print(arr[i],arr[j],arr[k])
                    count+=1
