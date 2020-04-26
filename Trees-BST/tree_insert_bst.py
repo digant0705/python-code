@@ -35,6 +35,16 @@ insert(root,Node(9))
 insert(root,Node(11))
 insert(root,Node(13))
 insert(root,Node(14))
+insert(root,Node(23))
+insert(root,Node(25))
+insert(root,Node(16))
+insert(root,Node(0))
+insert(root,Node(1))
+insert(root,Node(2))
+insert(root,Node(19))
+insert(root,Node(20))
+insert(root,Node(21))
+
 
 """
 def inorder(root): 
@@ -81,4 +91,9 @@ def postorder_traversal(root):
 
 postorder_traversal(root)
 
-    
+#find the length of the tree
+
+def max_tree_left(root):
+    if root== None:
+        return
+    return 

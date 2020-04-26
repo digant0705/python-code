@@ -9,7 +9,6 @@ def sum_square_digit(n):
         n=int(n/10)
     return sum_square
 
-
 def check_happy_number(n):
     
     k=sum_square_digit(n)
